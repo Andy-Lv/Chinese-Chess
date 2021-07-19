@@ -1,0 +1,8 @@
+//
+// Created by andy on 2021/7/20.
+//
+
+#ifndef CHINESECHESS_MACHINEGAME_H
+#define CHINESECHESS_MACHINEGAME_H
+
+#endif //CHINESECHESS_MACHINEGAME_H
