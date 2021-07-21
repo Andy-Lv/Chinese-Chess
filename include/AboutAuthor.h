@@ -7,10 +7,12 @@
 
 #include <QDialog>
 #include <QFont>
+#include "ui_AboutAuthor.h"
 
-namespace Ui {
-    class AboutAuthor;
-}
+
+//namespace Ui {
+//    class AboutAuthor;
+//}
 
 class AboutAuthor : public QDialog
 {

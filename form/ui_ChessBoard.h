@@ -179,7 +179,7 @@ public:
 
 };
 
-namespace Ui {
+namespace Ui_Chess {
     class ChessBoard: public Ui_ChessBoard {};
 } // namespace Ui
 
