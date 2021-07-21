@@ -13,7 +13,7 @@ set(SRCS_FILES
         src/NetworkGame.cpp
         src/ChessBoard.cpp
         form/ui_AboutAuthor.cpp
-        form/ui_ChessBoard.cpp)
+        form/ui_ChessBoard.cpp include/ChessPieces.h src/ChessPieces.cpp include/AboutAuthor.h src/AboutAuthor.cpp)
 
 # 需要配置环境变量QT5_DIR
 set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} $ENV{QT5_DIR})
