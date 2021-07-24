@@ -9,7 +9,7 @@
 
 class ChessStep : public QObject
 {
-Q_OBJECT
+    Q_OBJECT
 public:
     explicit ChessStep(QObject *parent = 0);
     ~ChessStep();

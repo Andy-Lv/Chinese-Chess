@@ -10,7 +10,7 @@
 
 class SelectGameMode:public QDialog
 {
-Q_OBJECT
+    Q_OBJECT
 public:
     explicit SelectGameMode(QWidget *parent = 0);
     ~SelectGameMode();

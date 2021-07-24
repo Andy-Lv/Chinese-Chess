@@ -18,6 +18,10 @@
 #include "AboutAuthor.h"
 #include "ui_ChessBoard.h"
 
+namespace Ui_Chess {
+    class ChessBoard;
+}
+
 class ChessBoard : public QMainWindow
 {
 Q_OBJECT

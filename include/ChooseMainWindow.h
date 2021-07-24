@@ -13,7 +13,7 @@
 
 class ChooseMainWindow : public QWidget
 {
-Q_OBJECT
+    Q_OBJECT
 public:
     explicit ChooseMainWindow(int nChooseGame, QWidget *parent = 0);
     ~ChooseMainWindow();
