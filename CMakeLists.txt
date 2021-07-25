@@ -13,7 +13,10 @@ set(SRCS_FILES
         src/NetworkGame.cpp
         src/ChessBoard.cpp
         form/ui_AboutAuthor.cpp
-        form/ui_ChessBoard.cpp include/ChessPieces.h src/ChessPieces.cpp include/AboutAuthor.h src/AboutAuthor.cpp include/ChessStep.h src/ChessStep.cpp)
+        form/ui_ChessBoard.cpp
+        src/ChessPieces.cpp
+        src/AboutAuthor.cpp
+        src/ChessStep.cpp)
 
 # 需要配置环境变量QT5_DIR
 set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} $ENV{QT5_DIR})
@@ -33,12 +36,15 @@ if (Qt5Core_FOUND AND Qt5Widgets_FOUND AND Qt5Gui_FOUND AND
     include_directories(${QT_INCLUDES})
 endif()
 
-qt5_wrap_cpp(MOC_SRCS NetworkGame.h
+qt5_wrap_cpp(MOC_SRCS
+        ../include/NetworkGame.h
         ../include/SelectGameMode.h
         ../include/ChooseMainWindow.h
         ../include/ChessStep.h
+        ../include/ChessPieces.h
         ../include/ChessBoard.h
         ../include/AboutAuthor.h
+        ../include/MachineGame.h
         ../form/ui_AboutAuthor.h
         ../form/ui_ChessBoard.h)
 qt5_wrap_ui(UI_HEADERS
